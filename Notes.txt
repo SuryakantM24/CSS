@@ -1,2 +1,203 @@
 GIT NOTES (IMPORTANT)
 
+LECTURE 1//
+
+HTML- SKELETON, DESCRIPTION (WHAT OF WEBPAGE)
+
+CSS - APPEARENACE,STYLING,FORMATTING
+
+      CSS-> CASCADING STYLE SHEETS
+
+
+ It contains properties of various elements in WEBPAGE
+
+
+
+ SELECTORS IN CSS:
+         it is use to select an element to which we need to apply any APPEARENACE settings
+
+         Note:- we can select one, many element at a time using various type of selectors.
+
+
+    1) Simple Selectors:-
+         a) element selectors
+         b) class selectors 
+         c) id selectors
+    2) Pseudo Selector
+    
+    3) Multiple Selector      
+
+
+# Simple selectors
+     
+     a) element Selector:- its use to select particular tag.
+               its also called tag Selector
+
+               eg p{
+                  property:value;
+               }
+               every p tag in html tag will apply this property
+
+       File to be ref:-  index1.html and Style1.css     
+
+    But lets say i have 4 tables and i want two taables with border 4px and 2 tables with 2px
+    in such case we need to use class Selector
+
+    b) Class selectors
+         
+           .className{
+               property:value;
+           }
+    c) ID Selector:
+          uique id to target particular element individually
+
+
+          #idName{
+            property:value;
+          }
+
+          id is unique
+
+#Pseudo SELECTORS:
+     A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected elements). 
+     For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+     to implelment special state of element.
+
+
+     selector: pseudoclass
+     {
+
+     }
+
+
+ #Multiple SELECTORS
+ grouping selector
+
+ table tr td{
+    border: 1px solid
+ }
+
+ table tr td these are grouped.
+
+
+
+ OTHER SELECTORS are aslo there like 
+     UINVERSAL
+     NESTED
+     ATTRIBUTE etc.
+
+
+
+
+3 WAYS TO ADD STYLING 
+
+
+
+1)Inline
+        <p style="color:red">This is para<p>
+
+2)Internal
+
+         in head tag we can write all css code in styel tag
+         <style>
+            CSS -code
+         </style>   
+
+
+3)External
+        we use eternal css file to write all code and then link this file to html using
+        link tag in head tag.
+        <link rel="stylesheet" href="path of css file">
+
+
+
+SPECIFICTY:-
+
+
+     which propetry will override other is decided by specififcity
+
+       Order of dominance:-
+
+       tag < class < id < Inline CSS
+
+
+       but if use !important the that will be picked and specififcity will die 
+
+       but !important is bad practice.
+
+
+
+
+BOX MODEL IN CSS
+
+The box model is the basic building block of CSS.
+According to the box model concept, every element on a page is a rectangular box and may have width, height, padding, borders, and margins.
+
+
+REF:-  index2.html and Style2.css
+
+
+
+COLORS In css
+    
+      a) Hexadecimal COLORS
+           #rrggbb
+           eg white- #ffffff
+      b) rgb COLORS
+        
+        
+           eg (0,0,255)  :blue
+           eg (0,255,0)  :green
+
+      c) Predefined Colours
+          There are around 140 predefined Colours in CSS
+    
+box-sizing :- border-box then content  size will reduce.
+
+
+
+FONTS:-Font-family
+
+
+UNITS IN CSS
+
+
+A) Absoulte Units
+css-pixel and hardware pixel are two different things
+
+in css 1 pixel is 1/96 of inch.
+
+
+smallest unit of display.
+its fixed ..if any elemet is given fixed units. it will look same size device to device
+
+
+B) Percentage unit.
+
+
+     dimenions respect to parents dimestions
+C) Relative units to Font Size;
+   relative to parent element font size.
+   a)em psrent tag.
+        
+   b)rem:- realtive to root element( root is html)
+
+
+
+
+D) Relative to ViwPort(entire scrren)
+
+     vw-view width :-  1/100 of width of viewport
+     vh- view height:- 1/100 of height of viewport
+
+
+
+
+
+               
+
+
+
+
+

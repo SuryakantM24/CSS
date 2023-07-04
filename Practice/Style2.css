@@ -1,0 +1,22 @@
+.BOX{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#abc{
+    background-color: orange;
+    
+}
+
+#def{
+    background-color: white;
+}
+#xyz{
+    background-color: rgb(255,0,0) ;
+    
+}

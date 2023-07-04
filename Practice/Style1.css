@@ -1,0 +1,76 @@
+/* Element Selector */
+
+/* p{
+    color: red;
+    font-size: 100px;
+
+}
+
+table{
+    border: 1px solid black;
+} */
+
+
+
+/* CLASS SELECTOR */
+
+
+.red{
+    color: red;
+}
+
+.Orange{
+   color: orange;
+}
+
+.small{
+    font-size: x-small;
+}
+.large{
+    font-size: larger;
+}
+
+
+/* ID SELECTOR */
+
+#first-button{
+
+    color: rgb(209, 121, 6);
+    height: 50px;
+    width: 100px;
+
+
+}
+
+
+
+/* PSEUDO SELECTORS */
+
+#first-button:hover{
+      color: dodgerblue;
+}
+
+
+.link-colour:hover{
+    color:yellowgreen;
+}
+
+
+
+/* specificty */
+
+p{
+    color: red ;
+}
+
+
+.paras-sf{
+    color: brown ;
+
+
+}
+
+
+#back{
+    color: green;
+}
