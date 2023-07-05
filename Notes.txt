@@ -194,6 +194,97 @@ D) Relative to ViwPort(entire scrren)
 
 
 
+LECTURE 2//
+
+
+file refer :- index3.html and Style3.html
+CSS GRADIENT:- Shifting Colourr
+   types:- linear GRADIENT, radial gradient, conic gradient
+
+
+a)LINEAR GRADIENT:- down /left/up/right/diagonally
+   By Default linear gradient is top to bottom
+
+b) radial gradient:- from any center of circle
+
+c) conicall:-  like top of cone 
+
+
+CSS-SHADOW EFFECTS
+
+a) text shadow   text-shadow:( horizantal distance)(vertical)(blur) (color)
+
+b) box shadow     box-shadow: 10 px 10 px 10px(blur)
+                  by default shadow color is of text Colourr
+                  third args can be used as blur affect
+                  
+                  Multiple shadows can also be given
+
+                  if negative values is given  then direction of shadows can be changed
+
+                  spread-radius attribte:- its 4th value in box-shadow.Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element).
+
+
+
+ CSS dimenions:
+
+
+width 
+
+
+height
+
+min-height:- if content fits in this then well and good else if its getting out then it div size will grow.
+
+min-width:-
+
+max-width:
+
+max-height: content aftr this height will 
+
+     we can handle this overflow using overflow attributes.
+
+similar for max and min width
+
+
+
+overflow:-  visible( always visible)
+            hidden (extra content hidden)
+            scroll( scrolling)
+            auto (again scorll aur visisble mix depending on content size)
+
+
+
+overflow is shorthand propetry of overflow-x and overflow-y
+
+
+
+CSS TRANSFORMS
+
+CSS transforms allow you to move, rotate, scale, and skew elements.
+• With transform property you can use following methodsL=
+• translate
+• rotated
+• scaleX
+. scaleY
+. scaled 
+. skewx 
+. skewY
+. skew
+. matrix
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
                
 
