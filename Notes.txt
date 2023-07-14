@@ -421,6 +421,28 @@ Note: deeply study each command in detiatil from parallax.html and parallax.css
 
       
 
+CSS GRIDS
+
+A grid is a collection of horizontal and vertica/BesGreating a pattern against which we can line up our design elements. They help us to create
+layouts in which our elements~ won't jamp around or change width as we move from page to page, providing greater consistency on our websites
+CSS Grid Layout is a two-dimensional layout system for the web.
+
+
+• It lets you lay content out in rows and columns.
+
+•It has many features that make building complex layouts straightforward.
+
+•A grid will typically have columns, rows, and then gaps between each row and column. The gaps are commonly referred to as gutters.
+
+FLEX is how content flows and Grid is layout
+
+
+display: grid
+
+
+refer: index7.html and style7.css
+
+hw:- mug card.
 
 
 
