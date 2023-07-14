@@ -403,7 +403,20 @@ FLEX item property (child of flex)
                  applying properties to only one child.
 
 
-       
+// Paralax Website.
+
+
+
+             eye------> . content  ||       far content    |||    very fare content.
+                          MY FRAME  || MAN || MOUNTAIN
+
+
+
+Position absoulte:- then overalp can be done.
+
+3D wali game
+
+Note: deeply study each command in detiatil from parallax.html and parallax.css
 
 
       
